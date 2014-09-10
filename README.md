@@ -8,9 +8,14 @@ This is a Watchface for Pebble smartwatch. It was adopted from Pebble SDK exampl
 
 This watchface requires Pebble SDK 2.5 to complile. It will run on Pebble watch with firmware 2.5
 
+### ToDo ###
+
+* Create and add menu icon
+* Move the hour marks closer to center
+
 ### Credits ###
 
 * Original Analog watch by Pebble
-* Font of Digits is based on M12_MACH BIKER by [Miffies](http://mfs.jp.org/)
+* Font of digits is based on M12_MACH BIKER by [Miffies](http://mfs.jp.org/)
 * Rotation and Compass integration by Gregoire
 * Concept and fonts prepared by Ron
