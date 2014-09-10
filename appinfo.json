@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pedrolane & Ron64",
+    "longName": "North-Analog",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "north-analog",
+    "uuid": "74d60465-ec9b-4590-8efe-2585810ff9ef",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
