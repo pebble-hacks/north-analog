@@ -7,7 +7,14 @@
     "longName": "North-Analog",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/Analog_rotated_menu6.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
     },
     "shortName": "north-analog",
     "uuid": "74d60465-ec9b-4590-8efe-2585810ff9ef",
