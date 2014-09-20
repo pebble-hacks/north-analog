@@ -18,8 +18,8 @@
     },
     "shortName": "north-analog",
     "uuid": "74d60465-ec9b-4590-8efe-2585810ff9ef",
-    "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionCode": 2,
+    "versionLabel": "1.10",
     "watchapp": {
         "watchface": true
     }

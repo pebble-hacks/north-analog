@@ -39,7 +39,7 @@ static void bg_update_proc(Layer *layer, GContext *ctx) {
 static void hands_update_proc(Layer *layer, GContext *ctx) {
   GRect bounds = layer_get_bounds(layer);
   const GPoint center = grect_center_point(&bounds);
-  const int16_t secondHandLength = bounds.size.w / 2;
+  const int16_t secondHandLength = bounds.size.w / 2 -10;
 
   GPoint secondHand;
 
@@ -102,7 +102,7 @@ static void window_load(Window *window) {
   layer_add_child(window_layer, date_layer);
 
   // init day
-  day_label = text_layer_create(GRect(46, 114, 27, 20));
+  day_label = text_layer_create(GRect(46, 110, 27, 20));
   text_layer_set_text(day_label, day_buffer);
   text_layer_set_background_color(day_label, GColorWhite);
   text_layer_set_text_color(day_label, GColorBlack);
@@ -112,7 +112,7 @@ static void window_load(Window *window) {
   layer_add_child(date_layer, text_layer_get_layer(day_label));
 
   // init num
-  num_label = text_layer_create(GRect(73, 114, 18, 20));
+  num_label = text_layer_create(GRect(73, 110, 18, 20));
 
   text_layer_set_text(num_label, num_buffer);
   text_layer_set_background_color(num_label, GColorWhite);

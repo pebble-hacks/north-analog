@@ -10,7 +10,7 @@ This watchface requires Pebble SDK 2.5 to compile. It will run on Pebble watch w
 
 ### ToDo ###
 
-* Move the hour marks closer to the center 
+* Add features according to requests. 
 
 ### Credits ###
 
